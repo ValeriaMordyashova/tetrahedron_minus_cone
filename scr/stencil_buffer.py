@@ -1,6 +1,6 @@
 import pygame
 from OpenGL.GL import *
-from drawing import draw_cone, draw_tetrahedron, draw_cone_from_right_face
+from drawing import draw_tetrahedron, draw_cone_from_right_face
 
 def stencil_buffer_example():
     """

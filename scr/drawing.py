@@ -1,6 +1,5 @@
 from OpenGL.GL import *
 from OpenGL.GLU import *
-from OpenGL.raw.GLUT import glutSolidCone
 
 
 def draw_cone_from_right_face():
