@@ -5,7 +5,7 @@ from OpenGL.GL import glGetDoublev
 from OpenGL.raw.GL.VERSION.GL_1_0 import GL_PROJECTION_MATRIX
 from OpenGL.raw.GLU import gluPerspective
 from pygame.locals import *
-from scr.pygame_window import create_pygame_window
+from src.pygame_window import create_pygame_window
 
 # Замените your_module_name на имя вашего модуля, где содержится функция create_pygame_window
 
