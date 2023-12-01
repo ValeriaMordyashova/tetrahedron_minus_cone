@@ -13,7 +13,7 @@ def draw_cone_from_right_face():
     draw_cone(0.65, 3)
 
     # Нарисовать закрашенную окружность
-    glColor3f(0.0, 0.0, 0.0)
+    glColor3f(2.0, 0.0, 0.0)
     gluDisk(gluNewQuadric(), 0, 0.65, 100, 1)
 
     glPopMatrix()
@@ -30,7 +30,7 @@ def draw_cone(radius, height):
     """
     slices = 100
     stacks = 100
-    glColor3f(0.0, 0.0, 0.0)
+    glColor3f(2.0, 0.0, 0.0)
     gluCylinder(gluNewQuadric(), radius, 0, height, slices, stacks)
 
 def draw_tetrahedron():
