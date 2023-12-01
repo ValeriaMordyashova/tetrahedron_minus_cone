@@ -1,12 +1,12 @@
 # Вращение фигуры "Тетраэдр минус конус"
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/ValeriaMordyashova/tetrahedron_minus_cone)
-![Python](https://img.shields.io/badge/Python-3.9-purple)
+![Python](https://img.shields.io/badge/Python-3.11-purple)
 [![License: MIT ](https://img.shields.io/badge/License-MIT-coral.svg)](https://opensource.org/licenses/MIT)
 # Лабораторная работа по дисциплине "Компьютерная графика" №5. 
 # Описание задачи
 Вариант 17. Напишите программу, отображающую тетраэдр минус конус. Предусмотрите возможность поворота тела вокруг основных осей.
 ### Демонстрация работоспособности программы
-![GIF](https://github.com/ValeriaMordyashova/tetrahedron_minus_cone/blob/master/data/pygame-window-2023-11-18-00-43-11.gif)
+![GIF](https://github.com/ValeriaMordyashova/tetrahedron_minus_cone/blob/master/data/pygame-window-2023-12-01-19-00-09.gif)
 
 ## Используемые библиотеки
 * pygame: Библиотека для разработки компьютерных игр и мультимедийных приложений. 
@@ -36,6 +36,11 @@
 * Стрелка вверх: Вращение объекта вперед вокруг горизонтальной оси.
 * Стрелка вниз: Вращение объекта назад вокруг горизонтальной оси.
 
+## Установка и запуск:
+1. ```git clone https://github.com/ValeriaMordyashova/tetrahedron_minus_cone.git```
+2. ```cd tetrahedron_minus_cone```
+3. ```pip install -r requirements.txt```
+4. ```python src/main.py```
 
 # Язык и среда обработки
 | Язык | Среда разработки | 
